@@ -16,7 +16,7 @@ GEMINI_MODEL = 'models/text-embedding-004'  # Using the latest, high-performance
 BATCH_SIZE = 100  # Gemini API has a limit of 100 texts per batch
 
 # --- 2. Setup Gemini API ---
-api_key_str = "AIzaSyC9-vR_8Ss0Cs6u282G6iGPN2N2bm8GsPU"
+api_key_str = "GEMINI-API-KEY"
 
 # Set the API key for the genai library
 os.environ["GOOGLE_API_KEY"] = api_key_str
