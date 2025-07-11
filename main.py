@@ -7,9 +7,9 @@ from chunking import read_bmr_file, chunk_bmr
 from compliance_agent import set_index_and_metadata, extract_parameters_to_verify, retrieve_from_knowledge_base, analyze_compliance
 
 # Constants
-MASTER_INDEX_FILE = r"C:\Users\Satchal Patil\DATASCIPRAC\FrobeAI\BMR Compliance check\Master_BMR_2_faiss.index"
-MASTER_METADATA_FILE = r"C:\Users\Satchal Patil\DATASCIPRAC\FrobeAI\BMR Compliance check\Master_BMR_2_metadata.pkl"
-API_KEY = "AIzaSyBopAjf40PgbhwZmodNI_ZaKAORgLZju4U"
+MASTER_INDEX_FILE = r"Path to Master_BMR_2_faiss.index"
+MASTER_METADATA_FILE = r"Path to Master_BMR_2_metadata.pkl"
+API_KEY = "GEMINI-API-KEY"
 OUTPUT_JSON_PATH = "compliance_results.json"
 OUTPUT_PDF_PATH = "compliance_report.pdf"
 TEMP_EXTRACTED_PATH = "temp_extracted.txt"
